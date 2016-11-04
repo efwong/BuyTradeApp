@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EECBB2B1DCC205A00CF231E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECBB2A1DCC205A00CF231E /* LoginViewController.swift */; };
+		5EECBB301DCC2DF700CF231E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECBB2F1DCC2DF700CF231E /* MainViewController.swift */; };
 		5EF627521DCC1A2100D91651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF627511DCC1A2100D91651 /* AppDelegate.swift */; };
 		5EF627541DCC1A2100D91651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF627531DCC1A2100D91651 /* ViewController.swift */; };
 		5EF627571DCC1A2100D91651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF627551DCC1A2100D91651 /* Main.storyboard */; };
 		5EF627591DCC1A2100D91651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF627581DCC1A2100D91651 /* Assets.xcassets */; };
 		5EF6275C1DCC1A2100D91651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF6275A1DCC1A2100D91651 /* LaunchScreen.storyboard */; };
+		5EF627641DCC1A6400D91651 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EF627631DCC1A6400D91651 /* GoogleService-Info.plist */; };
+		844D2178BAF5FFF5D75A1F28 /* Pods_Traded.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CAEB326295C5A401677A9E /* Pods_Traded.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EECBB2A1DCC205A00CF231E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EECBB2C1DCC21EB00CF231E /* Traded-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Traded-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EECBB2E1DCC2D6900CF231E /* Traded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traded.entitlements; sourceTree = "<group>"; };
+		5EECBB2F1DCC2DF700CF231E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5EF6274E1DCC1A2100D91651 /* Traded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traded.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF627511DCC1A2100D91651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF627531DCC1A2100D91651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		5EF627581DCC1A2100D91651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF6275B1DCC1A2100D91651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF6275D1DCC1A2100D91651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF627631DCC1A6400D91651 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/edwinwong/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CD62F03FE0BD5B8CDB25C0F /* Pods-Traded.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traded.release.xcconfig"; path = "Pods/Target Support Files/Pods-Traded/Pods-Traded.release.xcconfig"; sourceTree = "<group>"; };
+		8D45B6AB02A52601769F1DC0 /* Pods-Traded.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traded.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Traded/Pods-Traded.debug.xcconfig"; sourceTree = "<group>"; };
+		A6CAEB326295C5A401677A9E /* Pods_Traded.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traded.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844D2178BAF5FFF5D75A1F28 /* Pods_Traded.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3510B7F2003369B15475C023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6CAEB326295C5A401677A9E /* Pods_Traded.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EECBB2D1DCC22E800CF231E /* ObjcHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5EECBB2C1DCC21EB00CF231E /* Traded-Bridging-Header.h */,
+			);
+			name = ObjcHeader;
+			sourceTree = "<group>";
+		};
 		5EF627451DCC1A2100D91651 = {
 			isa = PBXGroup;
 			children = (
 				5EF627501DCC1A2100D91651 /* Traded */,
 				5EF6274F1DCC1A2100D91651 /* Products */,
+				CBAA42E78CDEB410CA9BB964 /* Pods */,
+				3510B7F2003369B15475C023 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,28 @@
 		5EF627501DCC1A2100D91651 /* Traded */ = {
 			isa = PBXGroup;
 			children = (
+				5EECBB2E1DCC2D6900CF231E /* Traded.entitlements */,
 				5EF627511DCC1A2100D91651 /* AppDelegate.swift */,
 				5EF627531DCC1A2100D91651 /* ViewController.swift */,
 				5EF627551DCC1A2100D91651 /* Main.storyboard */,
 				5EF627581DCC1A2100D91651 /* Assets.xcassets */,
 				5EF6275A1DCC1A2100D91651 /* LaunchScreen.storyboard */,
 				5EF6275D1DCC1A2100D91651 /* Info.plist */,
+				5EF627631DCC1A6400D91651 /* GoogleService-Info.plist */,
+				5EECBB2A1DCC205A00CF231E /* LoginViewController.swift */,
+				5EECBB2D1DCC22E800CF231E /* ObjcHeader */,
+				5EECBB2F1DCC2DF700CF231E /* MainViewController.swift */,
 			);
 			path = Traded;
+			sourceTree = "<group>";
+		};
+		CBAA42E78CDEB410CA9BB964 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D45B6AB02A52601769F1DC0 /* Pods-Traded.debug.xcconfig */,
+				6CD62F03FE0BD5B8CDB25C0F /* Pods-Traded.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EF627601DCC1A2100D91651 /* Build configuration list for PBXNativeTarget "Traded" */;
 			buildPhases = (
+				F8460B0D87A01CE47B387981 /* [CP] Check Pods Manifest.lock */,
 				5EF6274A1DCC1A2100D91651 /* Sources */,
 				5EF6274B1DCC1A2100D91651 /* Frameworks */,
 				5EF6274C1DCC1A2100D91651 /* Resources */,
+				B1C5A4DD9FE0276732B02CBC /* [CP] Embed Pods Frameworks */,
+				CD5942C2EE82D625A14C3C49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +146,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = U989RZC3BD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF6275C1DCC1A2100D91651 /* LaunchScreen.storyboard in Resources */,
+				5EF627641DCC1A6400D91651 /* GoogleService-Info.plist in Resources */,
 				5EF627591DCC1A2100D91651 /* Assets.xcassets in Resources */,
 				5EF627571DCC1A2100D91651 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +186,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1C5A4DD9FE0276732B02CBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traded/Pods-Traded-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5942C2EE82D625A14C3C49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traded/Pods-Traded-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8460B0D87A01CE47B387981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EF6274A1DCC1A2100D91651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EECBB2B1DCC205A00CF231E /* LoginViewController.swift in Sources */,
 				5EF627541DCC1A2100D91651 /* ViewController.swift in Sources */,
 				5EF627521DCC1A2100D91651 /* AppDelegate.swift in Sources */,
+				5EECBB301DCC2DF700CF231E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +361,32 @@
 		};
 		5EF627611DCC1A2100D91651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D45B6AB02A52601769F1DC0 /* Pods-Traded.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Traded/Traded.entitlements;
 				DEVELOPMENT_TEAM = U989RZC3BD;
 				INFOPLIST_FILE = Traded/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Traded;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Traded/Traded-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5EF627621DCC1A2100D91651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD62F03FE0BD5B8CDB25C0F /* Pods-Traded.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Traded/Traded.entitlements;
 				DEVELOPMENT_TEAM = U989RZC3BD;
 				INFOPLIST_FILE = Traded/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Traded;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Traded/Traded-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +410,7 @@
 				5EF627621DCC1A2100D91651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
